@@ -1,0 +1,112 @@
+{% extends 'base.html' %} {% block bodyblock %}
+<div>
+  <br />
+  <div>
+    <h3 class="px-4 text-center font-weight-bold">
+      Welcome to Face Recognition Web App project !
+    </h3>
+
+    <p class="text-center font-weight-bold">
+      This webapp takes .jpg, .jpeg and .png format files and predicts the
+      gender the person in the photo.
+    </p>
+  </div>
+  <div>
+    <img
+      src="../static/images/Screenshot 2024-04-28 150113.png"
+      class="image-fluid mx-auto d-block my-2"
+      width="1000"
+      height="500"
+      alt=""
+    />
+  </div>
+
+  <div class="p-3">
+    <h3 class="px-4 text-center text-bold">Technologies Used :-</h3>
+    <table class="table">
+      <thead>
+        <tr class="table-primary">
+          <th scope="col">Sr. No.</th>
+          <th scope="col">Name</th>
+          <th scope="col">Used for</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Haar Cascade Classifier (XML)</td>
+          <td>
+            Used for face detection in images or video frames. The Haar cascade
+            classifier is a popular algorithm for facial detection due to its
+            computational efficiency and high accuracy.
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Principal Component Analysis (PCA)</td>
+          <td>
+            Used for dimensionality reduction of face images. PCA helps reduce
+            the number of features while preserving most of the information in
+            the dataset
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Support Vector Machine (SVM)</td>
+          <td>
+            Used for gender prediction based on the extracted features. SVM is a
+            machine learning algorithm that can classify data into different
+            categories, making it suitable for gender classification.
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>Flask</td>
+          <td>
+            Used as a web framework to build the face recognition web app. Flask
+            is a lightweight and flexible framework for creating web
+            applications in Python.
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td>OpenCV</td>
+          <td>
+            Used for image processing tasks, such as loading images, applying
+            filters, and performing face detection. OpenCV is a popular computer
+            vision library that provides a wide range of functions and
+            algorithms for image and video analysis.
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">6</th>
+          <td>Pandas</td>
+          <td>
+            Used for data manipulation and analysis. Pandas is a powerful
+            library for handling structured data, making it useful for tasks
+            such as loading and preprocessing datasets.
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">7</th>
+          <td>Matplotlib</td>
+          <td>
+            Used for data visualization. Matplotlib is a plotting library that
+            allows you to create various types of charts and graphs to visualize
+            data.
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">8</th>
+          <td>NumPy</td>
+          <td>
+            Used for numerical computations. NumPy is a fundamental library for
+            scientific computing in Python, providing support for large,
+            multi-dimensional arrays and a collection of mathematical functions.
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  {% endblock %}
+</div>
