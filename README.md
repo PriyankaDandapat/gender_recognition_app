@@ -1,4 +1,4 @@
-### Training Face Recognition Model
+### Gender Recognition Model
 
 Deployment Link: https://gender-recognition-app-1.onrender.com
 
